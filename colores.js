@@ -102,7 +102,7 @@ function colors(numRectangles){
 }
 
 function draw() {
-  //background(0);
+  background(0);
   let vol = amp.getLevel();
   let numRectangles = Math.floor(map(vol, 0, 1, 1, 50)); // Mapea la amplitud a un número de rectángulos
   colors(numRectangles);
